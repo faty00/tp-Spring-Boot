@@ -12,7 +12,7 @@
 	<artifactId>tp_springboot_mvc_jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>tp_springboot_mvc_jpa</name>
-	<description>TP de Spring Boot, MVC et JPA</description>
+	<description>Tp de Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
