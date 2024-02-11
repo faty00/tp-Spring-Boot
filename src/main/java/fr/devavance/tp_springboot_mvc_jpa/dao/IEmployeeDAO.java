@@ -6,18 +6,14 @@ import java.util.ArrayList;
 
 public interface IEmployeeDAO {
 
-    public ArrayList<Employee> employeesList = new ArrayList<>();
-
-
     /*
     *renvoie une liste d’employées et ne possédant pas de paramètre,
      */
-    public abstract ArrayList<Employee> findAll();
-
+    public ArrayList<Employee> findAll();
 
     /*
     * prend un employée en paramètre et ne retourne pas de valeur.
      */
-    public abstract void add(Employee employee) ;
+    public void add(Employee employee) ;
 
 }
