@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public interface IEmployeeController {
-        public String displayHome(Model model);
+       // public String displayHome(Model model);
         public String addEmployee(Employee employee);
-        public String displayEmployee(Long id,  Model model);
+        //public String displayEmployee(Long id,  Model model);
     }
 
 

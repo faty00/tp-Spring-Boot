@@ -28,7 +28,7 @@
     <div>
         <label for="fonction">Fonction :</label>
         <select id="fonction" th:field="${employee.fonction}">
-            <option th:each="fonction : ${T(fr.devavance.tp_springboot_employee.beans.Fonction).values()}"
+            <option th:each="fonction : ${T(fr.devavance.tp_springboot_mvc_jpa.beans.Fonction).values()}"
                     th:value="${fonction}" th:text="${fonction}"></option>
         </select>
     </div>
