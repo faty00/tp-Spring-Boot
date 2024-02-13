@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+</head>
+
+
+<body>
+<h3>Fiche employée</h3>
+<p><a th:href="@{/employee/home}">Home</a></p>
+<p>Nom : <span th:text="${employee.name}"></span></p>
+<p>Adresse : <span th:text="${employee.address}"></span></p>
+<p>Mail : <span th:text="${employee.email}"></span></p>
+<p>Téléphone : <span th:text="${employee.phone}"></span></p>
+<p>Fonction : <span th:text="${employee.fonction}"></span></p>
+</body>
+</html>

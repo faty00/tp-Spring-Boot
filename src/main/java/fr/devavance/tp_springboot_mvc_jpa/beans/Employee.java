@@ -25,7 +25,7 @@ public class Employee {
     }
 
 
-    public Employee(String name, String address, String email, String phone, Fonction fonction){
+    public Employee(String name,  String email,String phone,String address,  Fonction fonction){
         this.name = name;
         this.address = address;
         this.email = email;
