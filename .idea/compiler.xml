@@ -8,11 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tp_springboot_mvc_jpa" />
+        <module name="employee-core" />
+        <module name="employee-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="employee-web (1)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="employee-core" options="-parameters" />
+      <module name="employee-web" options="-parameters" />
+      <module name="employee-web (1)" options="-parameters" />
       <module name="tp_springboot_mvc_jpa" options="-parameters" />
     </option>
   </component>

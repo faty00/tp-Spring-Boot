@@ -15,7 +15,6 @@
         <span th:text="${employee.name}" th:attr="style='background:' + ${employee.fonction.getCodeCouleur()}"></span>
     </li>
 </ul>
-
 <form method="post" th:action="@{/employee/addemployee}" th:object="${employee}">
     <div>
         <label for="name">Nom :</label>
@@ -34,7 +33,7 @@
     <div>
         <label for="fonction">Fonction :</label>
         <select id="fonction" th:field="${employee.fonction}">
-            <option th:each="fonction : ${T(fr.devavance.tp_springboot_mvc_jpa.beans.Fonction).values()}"
+            <option th:each="fonction : ${T(fr.devavance.tp_springboot_mvc_jpa.enumeration.Fonction).values()}"
                     th:value="${fonction}" th:text="${fonction}"></option>
         </select>
     </div>

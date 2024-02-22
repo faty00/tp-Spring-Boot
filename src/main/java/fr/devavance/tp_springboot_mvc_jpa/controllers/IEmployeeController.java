@@ -1,11 +1,8 @@
 package fr.devavance.tp_springboot_mvc_jpa.controllers;
 
-import fr.devavance.tp_springboot_mvc_jpa.beans.Employee;
+import fr.devavance.tp_springboot_mvc_jpa.entity.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-
-
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public interface IEmployeeController {

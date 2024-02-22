@@ -1,5 +1,5 @@
-package fr.devavance.tp_springboot_mvc_jpa.beans;
-
+package fr.devavance.employee.employeecore.core.entity;
+import fr.devavance.employee.employeecore.core.enumeration.Fonction;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
