@@ -1,5 +1,5 @@
-package fr.devavance.employee.employeecore.core.entity;
-import fr.devavance.employee.employeecore.core.enumeration.Fonction;
+package fr.devavance.employee.core.entity;
+import fr.devavance.employee.core.enumeration.Fonction;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

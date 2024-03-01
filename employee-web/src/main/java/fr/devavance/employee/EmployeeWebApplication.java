@@ -1,4 +1,4 @@
-package fr.devavance.employee.employeeweb;
+package fr.devavance.employee;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan("fr.devavance.employee")
+//@ComponentScan("fr.devavance.employee")
 
 public class EmployeeWebApplication {
 

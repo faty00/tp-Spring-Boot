@@ -1,14 +1,14 @@
-package fr.devavance.employee.employeecore.core;
+package fr.devavance.employee.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import fr.devavance.employee.employeecore.core.repository.IEmployeeRepository;
+import fr.devavance.employee.core.repository.IEmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import fr.devavance.employee.employeecore.core.entity.Employee;
-import fr.devavance.employee.employeecore.core.enumeration.Fonction;
+import fr.devavance.employee.core.entity.Employee;
+import fr.devavance.employee.core.enumeration.Fonction;
 
 @Component
 class InitDataRepository implements CommandLineRunner {

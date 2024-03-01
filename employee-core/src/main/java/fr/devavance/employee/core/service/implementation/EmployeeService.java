@@ -1,8 +1,8 @@
-package fr.devavance.employee.employeecore.core.service.implementation;
+package fr.devavance.employee.core.service.implementation;
 
-import fr.devavance.employee.employeecore.core.entity.Employee;
-import fr.devavance.employee.employeecore.core.repository.IEmployeeRepository;
-import fr.devavance.employee.employeecore.core.service.IEmployeeService;
+import fr.devavance.employee.core.entity.Employee;
+import fr.devavance.employee.core.repository.IEmployeeRepository;
+import fr.devavance.employee.core.service.IEmployeeService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

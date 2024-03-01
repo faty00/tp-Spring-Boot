@@ -1,6 +1,6 @@
-package fr.devavance.employee.employeecore.core.service;
+package fr.devavance.employee.core.service;
 
-import fr.devavance.employee.employeecore.core.entity.Employee;
+import fr.devavance.employee.core.entity.Employee;
 
 import java.util.List;
 

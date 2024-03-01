@@ -1,5 +1,5 @@
 
-package fr.devavance.employee.employeecore.core.enumeration;
+package fr.devavance.employee.core.enumeration;
 
 public enum Fonction {
     CHEF_PROJET("blue"),

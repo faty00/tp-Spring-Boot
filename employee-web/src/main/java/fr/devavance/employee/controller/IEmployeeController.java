@@ -1,6 +1,6 @@
-package fr.devavance.employee.employeeweb.controller;
+package fr.devavance.employee.controller;
 
-import fr.devavance.employee.employeecore.core.entity.Employee;
+import fr.devavance.employee.core.entity.Employee;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 

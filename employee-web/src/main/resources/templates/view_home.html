@@ -33,7 +33,7 @@
   <div>
     <label for="fonction">Fonction :</label>
     <select id="fonction" th:field="${employee.fonction}">
-      <option th:each="fonction : ${T(fr.devavance.employee.employeecore.core.enumeration.Fonction).values()}"
+      <option th:each="fonction : ${T(fr.devavance.employee.core.enumeration.Fonction).values()}"
               th:value="${fonction}" th:text="${fonction}"></option>
     </select>
   </div>

@@ -1,8 +1,8 @@
-package fr.devavance.employee.employeeweb.controller.implementation;
+package fr.devavance.employee.controller.implementation;
 import java.util.Optional;
-import fr.devavance.employee.employeecore.core.entity.Employee;
-import fr.devavance.employee.employeecore.core.repository.IEmployeeRepository;
-import fr.devavance.employee.employeeweb.controller.IEmployeeController;
+import fr.devavance.employee.core.entity.Employee;
+import fr.devavance.employee.core.repository.IEmployeeRepository;
+import fr.devavance.employee.controller.IEmployeeController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -46,7 +46,7 @@ public class EmployeeController implements IEmployeeController {
 
     */
     @PostMapping("/addemployee")
-    public String addEmployee(fr.devavance.employee.employeecore.core.entity.Employee employee){
+    public String addEmployee(Employee employee){
         employeeRepository.save(employee);
         return "redirect:/employee/home";
     }
